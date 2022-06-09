@@ -1,0 +1,686 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+.main-header-nav ul {
+width: 1200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+list-style: none;
+}
+
+.main-header-nav a {
+display: flex;
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+margin: 0;
+}
+
+.line {
+border-top: 1px solid #AE7C78;
+border-bottom: 1px solid #AE7C78;
+
+}
+
+.main-header-nav img {
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+
+
+/**/
+
+.main-page {
+width: 1200px;
+display: flex;
+margin: 0 auto;
+margin-top: 81px;
+}
+
+.main-page-conteiner h1 {
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 59px;
+color: #AE7C78;
+margin-top: 0;
+
+}
+
+.main-page-conteiner p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #AE7C78;
+margin-top: 24px;   
+}
+
+.main-page-conteiner a {
+width: 285px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+text-decoration: none;
+background: #D89999;
+border-radius: 40px;
+text-align: center;
+margin-top: 64px;
+}
+
+.tulpan {
+width: 386px;
+height: 404px;
+margin-left: 23px;
+margin-top: 58px;
+}
+
+.rous {
+width: 387px;
+height: 420px;
+margin-left: 20px;
+}
+
+.main-page-conteiner {
+width: 384px;
+}
+
+
+
+/* привелегии*/
+
+.privilege-item {
+width: 1200px;
+display: flex;
+justify-content:space-between;
+margin: 0 auto;
+margin-top: 48px;
+}
+
+.privilege-item li {
+display: flex;
+}
+
+.conteiner p {
+width: 285px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+margin-top: 8px;
+}
+
+.conteiner h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+.conteiner {
+margin-left: 20px;
+}
+
+/**/
+
+.popular h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+color: #AE7C78;
+text-align: center;
+}
+
+.pop-bukets {
+width: 794px;
+margin: 0 auto;
+display: flex;
+margin-top: 36px;
+}
+
+.conteiner-popular h3 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #AE7C78;
+}
+.opicanie{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+
+}
+
+.size-buket {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+}
+
+.pop-bukets a {
+width: 285px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+background: #D89999;
+border-radius: 40px;
+text-decoration: none;
+
+}
+
+
+/**/
+.catalog-item {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+padding: 0;
+}
+
+.catalog-item li {
+list-style: none;
+width: 387px;
+height: 442px;
+
+}
+
+.wedinds {
+display: flex;
+background: url(img.marafon/sammi-sP5CaWEN7Do-unsplash\ 1.png) no-repeat;
+background-size:cover;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+
+.conteiner-1 {
+display: block;
+margin: auto;
+}
+
+.conteiner-1 a {
+text-decoration: none;
+}
+.conteiner-1 p{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.conteiner-1 h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.bukety-s-pionami {
+display: flex;
+background: url(img.marafon/fresh-beautiful-peony-flowers-vase\ 1.png) no-repeat;
+background-size:cover;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+
+.conteiner-2 {
+display: block;
+margin: auto;
+}
+
+.conteiner-2 a{
+text-decoration:none ;
+}
+
+
+.conteiner-2 h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.conteiner-2 p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.flowers{
+display: flex;
+background: url(img.marafon/alyssa-strohmann-tnpr-hPOta0-unsplash\ 1\ \(1\).png) no-repeat;
+background-size:cover;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+
+.conteiner-3 {
+display: block;
+margin: auto;
+}
+
+.conteiner-3 a {
+text-decoration: none;
+}
+
+.conteiner-3 p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.conteiner-3 h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+        /**/
+
+.discount {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-top: 80px;
+background: #AE7C78;
+}
+
+.text { 
+margin-left: 102px;
+}
+
+.text p{         
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.text h2{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 59px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.discont-img{
+padding-left: 120px;
+}
+
+/*4 шага*/
+
+.steps h2{
+text-align: center;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+color: #AE7C78;
+margin-top: 80px;
+}
+
+.steps-item {
+width: 1200px;
+display: flex;
+justify-content:space-between;
+margin: 0 auto;
+margin-top: 36px;
+padding: 0;
+}
+
+.steps-item li {
+width: 1200px;
+display: flex;
+flex-direction: column;
+align-items:center;
+list-style: none;
+}
+
+
+.conteiner-4 p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #AE7C78;
+text-align:center;
+margin-top: 8px;
+}
+
+.conteiner-4 h3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+text-align: center;
+margin-top: 8px;
+}
+
+.nash,
+.oplata,
+.kurier {
+margin-left: 20px;
+}
+
+
+/*следите за нашими новостями*/
+
+.news {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+margin-top: 80px;
+}
+.conteiner-5 {
+width: 508px;
+}
+.conteiner-5  h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+color: #AE7C78;
+
+}
+
+.conteiner-5 p{
+width: 387px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #AE7C78;
+margin-top: 39px;
+}
+
+.conteiner-5 img {
+    margin-top: 40px;
+}
+
+.conteiner-6 {
+width:692px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+margin-left: 125px;
+}
+
+.too {
+    margin-top: 20px;
+}
+
+/*Отзывы*/
+
+.reviews h2{
+text-align: center;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #AE7C78;
+margin-top: 40px;
+}
+
+.revievs-item {
+width: 1200px;
+display: flex;
+justify-content:space-between;
+margin: 0 auto;
+margin-top: 36px;
+padding: 0; 
+}
+
+.revievs-item li{
+    list-style:none;
+}
+
+.revs {
+margin: 0 auto;
+padding: 0;
+width: 1200px;
+height: 308px;
+border: 1px solid #AE7C78;
+box-sizing: border-box;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.revievs-item p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #AE7C78;
+text-align: center;
+}
+
+.revievs-item cite{
+ display: flex;
+ justify-content: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+margin-top: 16px;
+}
+
+
+/*Подвал*/
+
+.contacts-map{
+margin: 0 auto;
+width: 1440px;
+height: 644.1px;
+background: url(img.marafon/map.png);
+background-size: cover;
+}
+
+
+.contacts-map .conteiner-footer{
+display: flex;
+width: 1440px;
+margin: 0 auto;
+}
+
+.contacts-map .podlozka{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+background: #F7FAFC;
+box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+border-radius: 12px;
+width: 386px;
+margin-top: 52px;
+margin-bottom: 72px;
+margin-left: 102px;
+padding-top: 40px;
+padding-left: 35px;
+padding-bottom: 65px;
+}
+
+.contacts-map  h2{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #AE7C78;
+}
+
+.contacts-map  p{
+text-align: left;
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+margin: 0;
+margin-bottom: 13.68px;
+margin-top: 13.68px;
+}
+
+.podlozka p:nth-of-type(2n){
+font-weight: 500;
+margin-top: 0;
+}
+
+.contacts-map a{
+color: #AE7C78;
+text-decoration: none;
+}
+
+.go{
+margin-top: 42px;
+}
+.spb{
+margin-top: 21px;
+}
+
+.rezim{
+margin-top: 31px;
+}
+.work{
+margin-top: 13px;
+}
+.call{
+margin-top: 29px;
+}
+.telef{
+margin-top: 13px;
+}
+.pismo{
+margin-top: 34px;
+}
+.mail{
+margin-top: 17px;
+}
+
+/*Подвал низ*/
+
+.footer-item ul {
+display: flex;
+width: 1199px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 47px;
+color: #FFFFFF;
+padding-left: 0;
+list-style: none;
+}
+
+.foter-footer{
+width: 1440px;
+margin: 0 auto;
+padding-left: 0;
+height: auto;
+background: #AE7C78;
+}
+
+.f-conteiner {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 103px;
+margin-right: 105;
+flex-grow: 1;
+}
+
+.footer-item ul li:last-of-type{
+display: flex;
+width: 96.76;
+justify-content: space-between;
+}
+
+.footer-item a{
+text-decoration: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.icon-footer{
+margin-left: 105px;
+}
